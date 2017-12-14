@@ -1,11 +1,11 @@
 import React from 'react';
-import Todoparent from './components/Todoparent'
+import Todolist from './components/Todolist'
 
 const App = () => (
   <div>
     <h2>Todo App</h2>
     <todo name="todo" />
-    <Todoparent />
+    <Todolist />
   </div>
 );
 
